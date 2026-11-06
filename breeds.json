@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "labrador-retriever",
+    "name": "Labrador Retriever",
+    "group": "Sporting",
+    "size": "Large",
+    "lifespan": "11\u201313 years",
+    "activity": "High",
+    "grooming": "Moderate; regular brushing, heavier seasonal shedding",
+    "temperament": "Friendly, outgoing, active, and eager to please",
+    "pros": [
+      "Usually sociable and people-oriented",
+      "Often trainable and enthusiastic about activities",
+      "Can be a versatile family and sporting companion"
+    ],
+    "cons": [
+      "Needs substantial daily exercise and mental stimulation",
+      "Sheds year-round, with heavier seasonal shedding",
+      "Can become boisterous or destructive when under-exercised"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/labrador-retriever/"
+  },
+  {
+    "slug": "golden-retriever",
+    "name": "Golden Retriever",
+    "group": "Sporting",
+    "size": "Large",
+    "lifespan": "10\u201312 years",
+    "activity": "High",
+    "grooming": "Moderate to high; regular brushing and seasonal shedding",
+    "temperament": "Friendly, intelligent, devoted, and eager to please",
+    "pros": [
+      "Often affectionate and social",
+      "Typically responsive to reward-based training",
+      "Enjoys outdoor activities and family participation"
+    ],
+    "cons": [
+      "Needs daily exercise and companionship",
+      "Sheds noticeably, especially seasonally",
+      "Long coat needs regular brushing and care"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/golden-retriever/"
+  },
+  {
+    "slug": "german-shepherd-dog",
+    "name": "German Shepherd Dog",
+    "group": "Herding",
+    "size": "Large",
+    "lifespan": "9\u201313 years",
+    "activity": "High",
+    "grooming": "Moderate; frequent brushing and substantial shedding",
+    "temperament": "Confident, courageous, intelligent, and loyal",
+    "pros": [
+      "Highly trainable when consistently handled",
+      "Often excels in dog sports and working roles",
+      "Loyal and attentive to its household"
+    ],
+    "cons": [
+      "Requires consistent training, socialization, and exercise",
+      "Can be reserved with strangers",
+      "Sheds heavily and needs regular coat care"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/german-shepherd-dog/"
+  },
+  {
+    "slug": "french-bulldog",
+    "name": "French Bulldog",
+    "group": "Non-Sporting",
+    "size": "Small",
+    "lifespan": "10\u201312 years",
+    "activity": "Low to moderate",
+    "grooming": "Low; occasional brushing and routine skin-fold care",
+    "temperament": "Adaptable, playful, affectionate, and alert",
+    "pros": [
+      "Usually adapts well to smaller living spaces",
+      "Generally enjoys close human companionship",
+      "Typically does not require intense exercise"
+    ],
+    "cons": [
+      "Flat-faced structure can cause serious breathing and heat-tolerance problems",
+      "May have significant veterinary-care needs",
+      "Not suited to strenuous exercise or hot weather"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/french-bulldog/"
+  },
+  {
+    "slug": "poodle",
+    "name": "Poodle (Standard)",
+    "group": "Non-Sporting",
+    "size": "Large",
+    "lifespan": "10\u201318 years",
+    "activity": "High",
+    "grooming": "High; frequent professional or careful home coat maintenance",
+    "temperament": "Active, intelligent, alert, and trainable",
+    "pros": [
+      "Very intelligent and often quick to learn",
+      "Low-shedding coat may suit some allergy-conscious homes (no dog is truly hypoallergenic)",
+      "Enjoys training, games, and many dog sports"
+    ],
+    "cons": [
+      "Coat requires significant ongoing grooming",
+      "Needs daily physical and mental activity",
+      "Can become bored without engagement"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/poodle-standard/"
+  },
+  {
+    "slug": "beagle",
+    "name": "Beagle",
+    "group": "Hound",
+    "size": "Small",
+    "lifespan": "10\u201315 years",
+    "activity": "Moderate to high",
+    "grooming": "Low; regular brushing and basic ear care",
+    "temperament": "Merry, curious, friendly, and determined",
+    "pros": [
+      "Often cheerful and sociable",
+      "Manageable coat-care needs",
+      "Enjoys walks, scent games, and exploring"
+    ],
+    "cons": [
+      "Strong scent drive can make off-leash reliability difficult",
+      "May bark, bay, or howl",
+      "Needs secure containment and patient training"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/beagle/"
+  },
+  {
+    "slug": "bulldog",
+    "name": "Bulldog",
+    "group": "Non-Sporting",
+    "size": "Medium",
+    "lifespan": "8\u201310 years",
+    "activity": "Low to moderate",
+    "grooming": "Low to moderate; routine skin-fold cleaning",
+    "temperament": "Calm, courageous, friendly, and dignified",
+    "pros": [
+      "Often enjoys a relaxed home routine",
+      "Usually does not need intense exercise",
+      "Distinctive, affectionate companion for many households"
+    ],
+    "cons": [
+      "Flat-faced anatomy can affect breathing and heat tolerance",
+      "Skin folds need regular cleaning and drying",
+      "May have substantial health-care needs"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/bulldog/"
+  },
+  {
+    "slug": "dachshund",
+    "name": "Dachshund",
+    "group": "Hound",
+    "size": "Small",
+    "lifespan": "12\u201316 years",
+    "activity": "Moderate",
+    "grooming": "Varies by coat; smooth is low, longhaired needs more brushing",
+    "temperament": "Clever, lively, curious, and courageous",
+    "pros": [
+      "Small size can suit many homes",
+      "Playful and often strongly bonded to family",
+      "Comes in three coat varieties"
+    ],
+    "cons": [
+      "Long back makes weight control and avoiding repeated jumping important",
+      "Can be vocal and independent",
+      "May follow scents and ignore recall"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/dachshund/"
+  },
+  {
+    "slug": "pembroke-welsh-corgi",
+    "name": "Pembroke Welsh Corgi",
+    "group": "Herding",
+    "size": "Small",
+    "lifespan": "12\u201313 years",
+    "activity": "High",
+    "grooming": "Moderate; regular brushing and shedding management",
+    "temperament": "Affectionate, smart, alert, and lively",
+    "pros": [
+      "Intelligent and often enjoys learning",
+      "Compact but sturdy",
+      "Can be an engaging companion for active households"
+    ],
+    "cons": [
+      "Needs exercise and mental work",
+      "Can bark and may try to herd people or other pets",
+      "Sheds considerably and needs weight management"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"
+  },
+  {
+    "slug": "australian-shepherd",
+    "name": "Australian Shepherd",
+    "group": "Herding",
+    "size": "Medium",
+    "lifespan": "12\u201315 years",
+    "activity": "Very high",
+    "grooming": "Moderate; regular brushing and seasonal shedding",
+    "temperament": "Smart, work-oriented, energetic, and loyal",
+    "pros": [
+      "Excels at training and canine sports",
+      "Often forms close bonds with its people",
+      "A strong match for active owners who enjoy teaching skills"
+    ],
+    "cons": [
+      "Needs substantial daily exercise and mental challenges",
+      "May attempt to herd children, pets, or moving objects",
+      "Can become anxious or destructive when under-stimulated"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/australian-shepherd/"
+  },
+  {
+    "slug": "boxer",
+    "name": "Boxer",
+    "group": "Working",
+    "size": "Large",
+    "lifespan": "10\u201312 years",
+    "activity": "High",
+    "grooming": "Low; occasional brushing",
+    "temperament": "Bright, fun-loving, active, and loyal",
+    "pros": [
+      "Often playful and affectionate",
+      "Short coat is relatively easy to maintain",
+      "Enjoys active games and family participation"
+    ],
+    "cons": [
+      "Can be exuberant and needs training",
+      "Needs regular exercise and attention",
+      "Flat-faced features may affect heat tolerance and breathing"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/boxer/"
+  },
+  {
+    "slug": "shih-tzu",
+    "name": "Shih Tzu",
+    "group": "Toy",
+    "size": "Small",
+    "lifespan": "10\u201318 years",
+    "activity": "Low to moderate",
+    "grooming": "High; daily brushing for a long coat or regular trims",
+    "temperament": "Affectionate, outgoing, playful, and friendly",
+    "pros": [
+      "Often content with indoor companionship",
+      "Small size suits many living arrangements",
+      "Usually enjoys being with people"
+    ],
+    "cons": [
+      "Long coat requires frequent grooming",
+      "Can be difficult to house-train without consistency",
+      "Short muzzle can contribute to breathing and heat issues"
+    ],
+    "akc_url": "https://www.akc.org/dog-breeds/shih-tzu/"
+  }
+]

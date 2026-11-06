@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKC Breed Explorer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">DOG BREED RESEARCH</p>
+    <h1>AKC Breed Explorer</h1>
+    <p>Explore breed traits, compare care needs, and weigh the pros and cons.</p>
+  </div>
+</header>
+
+<main class="container">
+  <section class="toolbar" aria-label="Breed search and filters">
+    <label>Search breeds
+      <input id="search" type="search" placeholder="Try Labrador or energetic">
+    </label>
+    <label>Group
+      <select id="group"><option value="">All groups</option></select>
+    </label>
+    <label>Size
+      <select id="size">
+        <option value="">All sizes</option><option>Small</option><option>Medium</option><option>Large</option>
+      </select>
+    </label>
+    <label>Activity
+      <select id="activity">
+        <option value="">Any activity</option>
+        <option value="low">Low</option><option value="moderate">Moderate</option>
+        <option value="high">High</option><option value="very high">Very high</option>
+      </select>
+    </label>
+  </section>
+
+  <p id="loading" class="message" role="status">Loading breed profiles…</p>
+  <p id="error" class="error" role="alert"></p>
+  <p id="result-count" class="result-count"></p>
+  <section id="breed-list" class="breed-grid" aria-live="polite"></section>
+
+  <section class="compare-panel">
+    <div>
+      <p class="eyebrow">SIDE-BY-SIDE</p>
+      <h2>Compare two breeds</h2>
+      <p>Select two profiles to compare their size, activity, grooming, and lifespan.</p>
+    </div>
+    <label>First breed <select id="compare-a"><option value="">Choose a breed</option></select></label>
+    <label>Second breed <select id="compare-b"><option value="">Choose a breed</option></select></label>
+    <button id="compare-button" type="button">Compare</button>
+    <div id="comparison" class="comparison"></div>
+  </section>
+
+  <details class="add-panel">
+    <summary>Contribute a breed profile (POST to API)</summary>
+    <p class="small-note">For demonstration and coursework. New profiles are saved to the local JSON file.</p>
+    <form id="add-form">
+      <div class="form-grid">
+        <label>Breed name <input name="name" required maxlength="80"></label>
+        <label>AKC group <input name="group" required placeholder="Sporting, Hound, etc."></label>
+        <label>Size
+          <select name="size" required><option value="">Choose</option><option>Small</option><option>Medium</option><option>Large</option></select>
+        </label>
+        <label>Typical lifespan <input name="lifespan" required placeholder="10–13 years"></label>
+        <label>Activity level <input name="activity" required placeholder="Moderate to high"></label>
+        <label>Grooming needs <input name="grooming" required></label>
+        <label class="wide">Temperament <input name="temperament" required></label>
+        <label class="wide">Pros (separate each with a semicolon)
+          <textarea name="pros" required rows="2" placeholder="Friendly; trainable; enjoys walks"></textarea>
+        </label>
+        <label class="wide">Cons (separate each with a semicolon)
+          <textarea name="cons" required rows="2" placeholder="Needs exercise; sheds; may bark"></textarea>
+        </label>
+        <label class="wide">AKC breed page URL
+          <input name="akc_url" type="url" required placeholder="https://www.akc.org/dog-breeds/example/">
+        </label>
+      </div>
+      <button type="submit">Save breed profile</button>
+      <p id="form-message" class="message" role="status"></p>
+    </form>
+  </details>
+
+  <footer>
+    <p>Breed profiles are educational summaries, not guarantees of an individual dog's behavior or health. Meet the dog, speak with responsible breeders or rescues, and consult a veterinarian before making a decision.</p>
+    <p>Reference: <a href="https://www.akc.org/dog-breeds/" target="_blank" rel="noopener">Official AKC Dog Breeds directory</a>.</p>
+  </footer>
+</main>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
